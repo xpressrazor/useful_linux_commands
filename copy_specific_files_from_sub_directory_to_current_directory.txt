@@ -1,0 +1,6 @@
+Copy specific files (e.g. mp3, flac etc) from a directory (recursively) to another directory or current directory
+
+Command Usage: find <directory_to_search> -name '<search_query>' -exec cp {} <directory_to_copy> \;
+
+Examples:
+find ~/Downloads/music/ -name '*.flac' -exec cp {} ~/Music/ \;
